@@ -1,23 +1,32 @@
 package domain;
 
 public class Vkpost {
-    private String id;
-    private String imageId;
-    private String name;
-    private String labelId;
-    private String date;
+    private int id;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
+    private int date;
     private String text;
-    private String buttonUrl;
-    private String mainTxtOnTheImage;
-    private String descriptionTxtOnTheImage;
-    private String textButton;
-    private String picOnTheButton;
-    private String likeClick;
-    private String commentClick;
-    private String shareClick;
-    private String watchedPic;
-    private String watchedCount;
-    private String favoriteStar;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
+    private commentsInfo commentsInfo;
+    private copyRight copyRight;
+    private likesInfo likesInfo;
+    private repostsInfo repostsInfo;
+    private viewsInfo viewsInfo;
+    private String postType;
+    private postSource postSource;
+    private geo geo;
+    private int signerId;
+    private int canPin;
+    private int canEdt;
+    private int canDelete;
+    private int isPinned;
+    private int markedAsAds;
+    private boolean isFavourite;
+    private donut donut;
+    private int postponedId;
 
-    //get+set
+    //+ get/set на все поля
 }
