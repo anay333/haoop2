@@ -1,7 +1,7 @@
 package domain;
 
 public class viewsInfo {
-    private int eye;
+    private int count;
 
     // + get/set на все поля
 }
